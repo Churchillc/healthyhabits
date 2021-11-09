@@ -9,6 +9,9 @@
     </div>
   </div>
   <ProductList :products="products" />
+  <div class = "footer">
+  <a href="https://github.com/Churchillc/healthyhabits">gitHub</a>
+  </div>
 </div>
 </template>
 
@@ -72,4 +75,13 @@ input {
 .spacer{
   height: 50px;
 }
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: #12232E;
+}
+
 </style>
